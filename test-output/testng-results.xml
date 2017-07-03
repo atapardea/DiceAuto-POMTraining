@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="37414" started-at="2017-07-03T14:39:47Z" finished-at="2017-07-03T14:40:25Z">
+    <groups>
+    </groups>
+    <test name="Regression1" duration-ms="37414" started-at="2017-07-03T14:39:47Z" finished-at="2017-07-03T14:40:25Z">
+      <class name="com.dice.FirstTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dice.FirstTest@146ba0ac]" name="setUp" is-config="true" duration-ms="3211" started-at="2017-07-03T17:39:47Z" finished-at="2017-07-03T17:39:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="firstTestMethod()[pri:0, instance:com.dice.FirstTest@146ba0ac]" name="firstTestMethod" duration-ms="9985" started-at="2017-07-03T17:39:50Z" finished-at="2017-07-03T17:40:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTestMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dice.FirstTest@146ba0ac]" name="tearDown" is-config="true" duration-ms="561" started-at="2017-07-03T17:40:00Z" finished-at="2017-07-03T17:40:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dice.FirstTest -->
+      <class name="com.dice.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dice.LoginTest@271053e1]" name="setUp" is-config="true" duration-ms="2712" started-at="2017-07-03T17:40:08Z" finished-at="2017-07-03T17:40:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="positiveLoginTest()[pri:0, instance:com.dice.LoginTest@271053e1]" name="positiveLoginTest" duration-ms="13322" started-at="2017-07-03T17:40:11Z" finished-at="2017-07-03T17:40:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dice.LoginTest@271053e1]" name="tearDown" is-config="true" duration-ms="374" started-at="2017-07-03T17:40:24Z" finished-at="2017-07-03T17:40:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dice.LoginTest -->
+      <class name="com.dice.SecondTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dice.SecondTest@4f7d0008]" name="setUp" is-config="true" duration-ms="2711" started-at="2017-07-03T17:40:01Z" finished-at="2017-07-03T17:40:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="secondTestMethod()[pri:0, instance:com.dice.SecondTest@4f7d0008]" name="secondTestMethod" duration-ms="4182" started-at="2017-07-03T17:40:04Z" finished-at="2017-07-03T17:40:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTestMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dice.SecondTest@4f7d0008]" name="tearDown" is-config="true" duration-ms="343" started-at="2017-07-03T17:40:08Z" finished-at="2017-07-03T17:40:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dice.SecondTest -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

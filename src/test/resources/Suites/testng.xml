@@ -1,0 +1,9 @@
+<suite name="Suite1" verbose="1" >
+  <test name="Regression1"   >
+   <classes>
+   		<class name="com.dice.FirstTest" />	
+   		<class name="com.dice.SecondTest" />
+   		<class name="com.dice.LoginTest" />
+   </classes>
+ </test>
+</suite>
