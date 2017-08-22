@@ -5,7 +5,7 @@
     <classes>
       <class name="com.dice.LoginTest">
         <methods>
-          <include name="positiveLoginTest"/>
+          <include name="negativeLoginTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>

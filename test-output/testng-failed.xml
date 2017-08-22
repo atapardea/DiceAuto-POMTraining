@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite thread-count="2" name="Failed suite [Suite1]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="LoginTest - FF(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
     <classes>
       <class name="com.dice.LoginTest">
         <methods>
           <include name="positiveLoginTest"/>
           <include name="setUp"/>
-          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- com.dice.LoginTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- LoginTest - FF(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

@@ -1,9 +1,22 @@
-<suite name="Suite1" verbose="1" >
-  <test name="Regression1"   >
-   <classes>
-   		<class name="com.dice.FirstTest" />	
-   		<class name="com.dice.SecondTest" />
-   		<class name="com.dice.LoginTest" />
-   </classes>
- </test>
+<suite name="Suite1" parallel="tests" thread-count="2">
+	<test name="LoginTest - FF">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.dice.LoginTest">
+				<methods>
+					<include name="positiveLoginTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="LoginTest - CH">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.dice.LoginTest">
+				<methods>
+					<include name="positiveLoginTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
 </suite>
